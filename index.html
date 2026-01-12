@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binod Kirana & Cosmetics | Vyas-12</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { 
+            --primary: #d63031; /* Red for Fresh Meat */
+            --beauty: #e84393;  /* Pink for Cosmetics */
+            --dark: #2d3436; 
+            --bg: #f8f9fa; 
+        }
+        body { font-family: 'Outfit', sans-serif; margin: 0; background: var(--bg); color: var(--dark); }
+        
+        header { background: white; padding: 20px; text-align: center; border-bottom: 4px solid var(--beauty); box-shadow: 0 2px 15px rgba(0,0,0,0.1); }
+        
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1596462502278-27bf8766e162?q=80&w=1000&auto=format&fit=crop');
+            background-size: cover; color: white; padding: 40px 20px; text-align: center; border-radius: 0 0 30px 30px;
+        }
+
+        .delivery-tag { background: #fdcb6e; color: #000; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.8rem; }
+
+        /* Cosmetic & Grocery Grid */
+        .main-container { padding: 20px; }
+        .section-title { font-size: 1.2rem; font-weight: 700; margin: 20px 0 10px; border-left: 5px solid var(--beauty); padding-left: 10px; }
+        
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .card { background: white; padding: 15px; border-radius: 15px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .card img-icon { font-size: 40px; display: block; margin-bottom: 5px; }
+        
+        /* Special Cosmetic Banner */
+        .beauty-banner { 
+            background: var(--beauty); color: white; padding: 20px; border-radius: 20px; margin-top: 20px;
+            display: flex; align-items: center; justify-content: space-between;
+        }
+
+        .footer-info { background: var(--dark); color: white; padding: 30px 20px; margin-top: 30px; border-radius: 30px 30px 0 0; }
+        
+        .call-btn { 
+            position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; 
+            padding: 15px 25px; border-radius: 50px; text-decoration: none; font-weight: bold;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3); z-index: 1000; display: flex; align-items: center; gap: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 style="margin: 0; color: var(--dark);">BINOD <span style="color: var(--beauty);">KIRANA</span></h1>
+    <p style="margin: 5px 0; font-size: 0.9rem; opacity: 0.8;">Vyas-12, Kamalbari, Tanahun</p>
+</header>
+
+<section class="hero">
+    <div class="delivery-tag">🚚 FREE HOME DELIVERY</div>
+    <h2 style="margin: 10px 0;">Groceries & Premium Cosmetics</h2>
+    <p style="font-size: 0.9rem; opacity: 0.9;">Best quality products for your home and beauty.</p>
+</section>
+
+<div class="main-container">
+    <div class="beauty-banner">
+        <div>
+            <h3 style="margin: 0;">Beauty & Makeup</h3>
+            <p style="margin: 5px 0; font-size: 0.8rem;">Top brands available now!</p>
+        </div>
+        <div style="font-size: 40px;">💅</div>
+    </div>
+
+    <div class="section-title">Our Best Items</div>
+    <div class="grid">
+        <div class="card">
+            <div style="font-size: 40px;">💄</div>
+            <strong>Cosmetics</strong>
+            <p style="font-size: 0.7rem; color: #666;">Creams, Makeup, Haircare</p>
+        </div>
+        <div class="card">
+            <div style="font-size: 40px;">🍗</div>
+            <strong>Fresh Meat</strong>
+            <p style="font-size: 0.7rem; color: #666;">Hygenic Chicken</p>
+        </div>
+        <div class="card">
+            <div style="font-size: 40px;">🍚</div>
+            <strong>Daily Food</strong>
+            <p style="font-size: 0.7rem; color: #666;">Rice, Daal, Oil</p>
+        </div>
+        <div class="card">
+            <div style="font-size: 40px;">🍳</div>
+            <strong>Kitchen</strong>
+            <p style="font-size: 0.7rem; color: #666;">Spices & Essentials</p>
+        </div>
+        <div class="card">
+            <div style="font-size: 40px;">🏡</div>
+            <strong>Home Use</strong>
+            <p style="font-size: 0.7rem; color: #666;">Daily Cleaning Items</p>
+        </div>
+        <div class="card">
+            <div style="font-size: 40px;">🔥</div>
+            <strong>Gas Refill</strong>
+            <p style="font-size: 0.7rem; color: #666;">LP Gas Service</p>
+        </div>
+    </div>
+
+    <div class="section-title">Hotel & Bulk Supplies</div>
+    <p style="padding: 0 10px; font-size: 0.9rem;">We provide wholesale rates for local hotels in Vyas and Kamalbari.</p>
+</div>
+
+<div class="footer-info">
+    <h3 style="color: var(--beauty);">Contact Us</h3>
+    <p><strong>Manager:</strong> Asha Thapa</p>
+    <p><strong>Phone:</strong> 9816643116</p>
+    <p><strong>Location:</strong> Vyas-12, Kamalbari, Tanahun (Near Highway)</p>
+    <hr style="opacity: 0.2;">
+    <p style="text-align: center; font-size: 0.8rem;">© 2026 Binod Kirana Pasal</p>
+</div>
+
+<a href="https://wa.me/9779816643116" class="call-btn">
+    <span>💬 Order via WhatsApp</span>
+</a>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binod Kirana & Cosmetics | Vyas-12</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root { 
+            --beauty-pink: #fd79a8;
+            --grocery-green: #26ae60;
+            --meat-red: #d63031;
+            --dark: #2d3436;
+            --white: #ffffff;
+        }
+        
+        body { font-family: 'Outfit', sans-serif; margin: 0; background: #f0f2f5; color: var(--dark); }
+
+        /* Modern Navigation */
+        nav { background: var(--white); padding: 15px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        .logo { font-size: 1.4rem; font-weight: 800; color: var(--grocery-green); margin: 0; text-transform: uppercase; }
+        .logo span { color: var(--beauty-pink); }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1534723452862-4c874018d66d?q=80&w=1000');
+            background-size: cover; background-position: center; color: white; padding: 50px 20px; text-align: center;
+        }
+        .delivery-badge { background: #ffeaa7; color: #000; padding: 8px 20px; border-radius: 50px; font-weight: bold; display: inline-block; font-size: 0.8rem; margin-bottom: 10px; }
+
+        /* Category Sections */
+        .container { padding: 20px; }
+        .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; border-left: 5px solid var(--grocery-green); padding-left: 10px; }
+        .section-header.beauty { border-left-color: var(--beauty-pink); }
+
+        .item-scroll { display: flex; overflow-x: auto; gap: 15px; padding-bottom: 10px; scrollbar-width: none; }
+        .item-scroll::-webkit-scrollbar { display: none; }
+
+        .item-card { background: var(--white); min-width: 140px; padding: 15px; border-radius: 20px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        .item-card i { font-size: 35px; display: block; margin-bottom: 8px; }
+        .item-card span { font-size: 0.9rem; font-weight: 600; display: block; }
+        .item-card small { font-size: 0.7rem; color: #888; }
+
+        /* Manager Info Box */
+        .info-card { background: var(--dark); color: white; padding: 25px; border-radius: 25px; margin: 20px 0; }
+        .contact-row { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+
+        /* Fixed Bottom Action Bar */
+        .bottom-bar { position: fixed; bottom: 0; left: 0; width: 100%; background: white; padding: 10px; display: flex; gap: 10px; box-shadow: 0 -5px 15px rgba(0,0,0,0.1); box-sizing: border-box; }
+        .btn { flex: 1; padding: 15px; border-radius: 15px; text-align: center; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+        .btn-call { background: var(--grocery-green); color: white; }
+        .btn-wa { background: #25D366; color: white; }
+    </style>
+</head>
+<body>
+
+<nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binod Kirana & Cosmetics | Vyas-12</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root { 
+            --beauty-pink: #fd79a8;
+            --grocery-green: #26ae60;
+            --meat-red: #d63031;
+            --dark: #2d3436;
+            --white: #ffffff;
+            --offer-gold: #f1c40f;
+        }
+        
+        body { font-family: 'Outfit', sans-serif; margin: 0; background: #f0f2f5; color: var(--dark); line-height: 1.5; }
+
+        nav { background: var(--white); padding: 15px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        .logo { font-size: 1.4rem; font-weight: 800; color: var(--grocery-green); margin: 0; text-transform: uppercase; }
+        .logo span { color: var(--beauty-pink); }
+
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1000');
+            background-size: cover; background-position: center; color: white; padding: 40px 20px; text-align: center;
+        }
+        .delivery-badge { background: var(--offer-gold); color: #000; padding: 5px 15px; border-radius: 50px; font-weight: bold; font-size: 0.8rem; display: inline-block; margin-bottom: 10px; }
+
+        .container { padding: 20px; }
+
+        /* Special Offer Table */
+        .offer-section { background: var(--white); border-radius: 20px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 30px; border: 2px solid var(--offer-gold); }
+        .offer-title { color: #d35400; font-weight: 800; text-transform: uppercase; font-size: 1rem; margin-bottom: 15px; display: flex; align-items: center; gap: 8px; }
+        
+        table { width: 100%; border-collapse: collapse; }
+        th { text-align: left; font-size: 0.8rem; color: #777; padding-bottom: 10px; }
+        td { padding: 12px 0; border-top: 1px dashed #eee; font-weight: 600; }
+        .old-price { text-decoration: line-through; color: #b2bec3; font-size: 0.8rem; margin-right: 5px; }
+        .new-price { color: var(--meat-red); }
+
+        /* Categories */
+        .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; border-left: 5px solid var(--grocery-green); padding-left: 10px; }
+        .item-scroll { display: flex; overflow-x: auto; gap: 15px; padding-bottom: 10px; }
+        .item-card { background: var(--white); min-width: 130px; padding: 15px; border-radius: 20px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+
+        .bottom-bar { position: fixed; bottom: 0; left: 0; width: 100%; background: white; padding: 10px; display: flex; gap: 10px; box-shadow: 0 -5px 15px rgba(0,0,0,0.1); box-sizing: border-box; }
+        .btn { flex: 1; padding: 15px; border-radius: 15px; text-align: center; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+        .btn-call { background: var(--grocery-green); color: white; }
+        .btn-wa { background: #25D366; color: white; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <h1 class="logo">BINOD <span>KIRANA & COSMETIC</span></h1>
+</nav>
+
+<section class="hero">
+    <div class="delivery-badge">🚚 FREE DELIVERY IN VYAS-12</div>
+    <h2 style="margin:0;">Sasto ra Ramro Saman</h2>
+    <p style="opacity: 0.9; font-size: 0.9rem;">Kamalbari, Tanahun | Ph: 9816643116</p>
+</section>
+
+<div class="container">
+    
+    <div class="offer-section">
+        <div class="offer-title">🔥 Aaja ko Bishesh Offer</div>
+        <table>
+            <thead>
+                <tr><th>Saman ko Naam</th><th>Mulyo (Price)</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Local Chicken (1KG)</td>
+                    <td><span class="old-price">Rs.450</span> <span class="new-price">Rs.420</span></td>
+                </tr>
+                <tr>
+                    <td>Face Cream (Premium)</td>
+                    <td><span class="old-price">Rs.300</span> <span class="new-price">Rs.270</span></td>
+                </tr>
+                <tr>
+                    <td>Sona Mansuli Rice (25KG)</td>
+                    <td><span class="new-price">Rs. [Call us]</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="font-size: 0.7rem; color: #888; margin-top: 10px;">*Offers limited time ko lagi matra ho.</p>
+    </div>
+
+    <div class="section-header"><h3>Grocery Items</h3></div>
+    <div class="item-scroll">
+        <div class="item-card"><i>🍚</i><span>Chamal/Dal</span></div>
+        <div class="item-card"><i>🥔</i><span>Tarkari</span></div>
+        <div class="item-card"><i>🧂</i><span>Masala</span></div>
+        <div class="item-card"><i>🧼</i><span>Sabun/Detergent</span></div>
+    </div>
+
+    <div class="section-header" style="border-left-color: var(--beauty-pink); margin-top: 30px;"><h3>Beauty Cosmetics</h3></div>
+    <div class="item-scroll">
+        <div class="item-card"><i>💄</i><span>Lipstick</span></div>
+        <div class="item-card"><i>🧴</i><span>Lotion</span></div>
+        <div class="item-card"><i>✨</i><span>Facial Kit</span></div>
+        <div class="item-card"><i>💅</i><span>Nail Polish</span></div>
+    </div>
+
+    <div style="background: #2d3436; color: white; padding: 20px; border-radius: 20px; margin-top: 30px;">
+        <h4 style="margin: 0; color: var(--offer-gold);">Manager: Asha Thapa</h4>
+        <p style="font-size: 0.8rem; margin: 10px 0;">Hotel ko lagi bulk order liyinchha. Tarkari, Maasu ra Kirana ko sabai saman thok bhaauma uplabdha chha.</p>
+    </div>
+
+    <div style="height: 80px;"></div>
+</div>
+
+<div class="bottom-bar">
+    <a href="tel:9816643116" class="btn btn-call">📞 Call Now</a>
+    <a href="https://wa.me/9779816643116" class="btn btn-wa">💬 WhatsApp Order</a>
+</div>
+
+</body>
+</html>
