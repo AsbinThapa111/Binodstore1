@@ -299,3 +299,141 @@
 
 </body>
 </html>
+
+    <!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binod Kirana & Cosmetics</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; text-align: center; }
+        header { background: #27ae60; color: white; padding: 20px; }
+        .container { padding: 20px; }
+        .item-card { 
+            background: white; margin: 15px auto; padding: 15px; 
+            border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+            max-width: 300px; cursor: pointer; transition: transform 0.2s;
+        }
+        .item-card:hover { transform: scale(1.05); }
+        .item-card h3 { margin: 10px 0; color: #333; }
+        .btn-order { 
+            display: inline-block; background: #25d366; color: white; 
+            padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;
+        }
+        footer { background: #333; color: white; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>बिनोड किराना पसल</h1>
+    <p>व्यास-१२, कमलवारी, तनहुँ</p>
+</header>
+
+<div class="container">
+    <h2>हाम्रा सामानहरू (अर्डर गर्न क्लिक गर्नुहोस्)</h2>
+
+    <div class="item-card" onclick="orderWhatsApp('Fresh Chicken Meat')">
+        <h3>🍗 ताजा कुखुराको मासु</h3>
+        <p>ताजा र सफा मासु उपलब्ध छ।</p>
+        <div class="btn-order">Order on WhatsApp</div>
+    </div>
+
+    <div class="item-card" onclick="orderWhatsApp('Cosmetics Items')">
+        <h3>💄 कस्मेटिक्स सामानहरू</h3>
+        <p>राम्रो ब्रान्डका श्रृंगारका सामान।</p>
+        <div class="btn-order">Order on WhatsApp</div>
+    </div>
+
+    <div class="item-card" onclick="orderWhatsApp('Kirana Items')">
+        <h3>🍚 किराना सामानहरू</h3>
+        <p>चामल, दाल, तेल र चिनी।</p>
+        <div class="btn-order">Order on WhatsApp</div>
+    </div>
+</div>
+
+<script>
+    function orderWhatsApp(itemName) {
+        var phoneNumber = "9816643116"; // Tapaiko number
+        var message = "नमस्ते, मलाई " + itemName + " को बारेमा बुझ्नु थियो।";
+        var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+        window.open(url, '_blank');
+    }
+</script>
+
+<footer>
+    <p>सम्पर्क: ९८१६६४३११६ | फ्री होम डेलिभरी!</p>
+</footer>
+
+</body>
+</html>
+
+    <!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binod Kirana & Cosmetics</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; text-align: center; }
+        header { background: #27ae60; color: white; padding: 20px; }
+        .container { padding: 20px; }
+        .item-card { 
+            background: white; margin: 15px auto; padding: 15px; 
+            border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+            max-width: 300px; cursor: pointer; transition: transform 0.2s;
+        }
+        .item-card:hover { transform: scale(1.05); }
+        .item-card h3 { margin: 10px 0; color: #333; }
+        .btn-order { 
+            display: inline-block; background: #25d366; color: white; 
+            padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;
+        }
+        footer { background: #333; color: white; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>बिनोड किराना पसल</h1>
+    <p>व्यास-१२, कमलवारी, तनहुँ</p>
+</header>
+
+<div class="container">
+    <h2>हाम्रा सामानहरू (अर्डर गर्न क्लिक गर्नुहोस्)</h2>
+
+    <div class="item-card" onclick="orderWhatsApp('Fresh Chicken Meat')">
+        <h3>🍗 ताजा कुखुराको मासु</h3>
+        <p>ताजा र सफा मासु उपलब्ध छ।</p>
+        <div class="btn-order">Order on WhatsApp</div>
+    </div>
+
+    <div class="item-card" onclick="orderWhatsApp('Cosmetics Items')">
+        <h3>💄 कस्मेटिक्स सामानहरू</h3>
+        <p>राम्रो ब्रान्डका श्रृंगारका सामान।</p>
+        <div class="btn-order">Order on WhatsApp</div>
+    </div>
+
+    <div class="item-card" onclick="orderWhatsApp('Kirana Items')">
+        <h3>🍚 किराना सामानहरू</h3>
+        <p>चामल, दाल, तेल र चिनी।</p>
+        <div class="btn-order">Order on WhatsApp</div>
+    </div>
+</div>
+
+<script>
+    function orderWhatsApp(itemName) {
+        var phoneNumber = "9816643116"; // Tapaiko number
+        var message = "नमस्ते, मलाई " + itemName + " को बारेमा बुझ्नु थियो।";
+        var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+        window.open(url, '_blank');
+    }
+</script>
+
+<footer>
+    <p>सम्पर्क: ९८१६६४३११६ | फ्री होम डेलिभरी!</p>
+</footer>
+
+</body>
+</html>
